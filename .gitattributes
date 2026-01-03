@@ -1,5 +1,16 @@
-* linguist-detectable=true
+
+*.cs linguist-language=C#
+
+
+*.json linguist-vendored
+*.xml linguist-vendored
+*.ini linguist-vendored
+*.txt linguist-vendored
+*.sln linguist-vendored
+
 bin/** linguist-generated
 obj/** linguist-generated
-**/*.dll linguist-generated
-**/*.exe linguist-generated
+
+* linguist-detectable=false
+*.cs linguist-detectable=true
+
